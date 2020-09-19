@@ -1,7 +1,8 @@
 const express = require('express')
 var path = require('path');
 var compression = require('compression');  // voor productie
-var helmet = require('helmet');  // voor productie
+
+var helmet = require('helmet');  // voor productie opgenomen
 
 var app = express();
 app.use(helmet());

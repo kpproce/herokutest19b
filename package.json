@@ -1,9 +1,12 @@
 {
   "name": "nodeexpressimageserver",
   "version": "1.0.0",
+  
   "engines": {
     "node": "v12.18.3"
   },
+  "private": true,
+
   "description": "imageserver",
   "main": "app.js",
   "scripts": {
@@ -12,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kpproce/api_images.git"
+    "url": "git+https://github.com/kpproce/herokutest19b"
   },
   "author": "kproce",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kpproce/api_images/issues"
+    "url": "https://github.com/kpproce/herokutest19b/issues"
   },
-  "homepage": "https://github.com/kpproce/api_images#readme",
+  "homepage": "https://github.com/kpproce/herokutest19b#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
